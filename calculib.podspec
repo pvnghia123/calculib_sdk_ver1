@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'calculib'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Demo Calculation frameword by pvnghia'
 
 # This description is used to generate tags and improve search results.
@@ -21,22 +21,22 @@ Pod::Spec.new do |s|
   'Demo Calculation frameword by pvnghia'
                        DESC
 
-  s.homepage         = 'https://github.com/pvnghia123/calculib'
+  s.homepage         = 'https://github.com/pvnghia123/calculib_sdk_ver1'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'pvnghia123' => 'pvnghia123@gmail.com' }
-  s.source           = { :git => 'https://github.com/pvnghia123/calculib.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/pvnghia123/calculib_sdk_ver1.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'Versions/A/Headers/*.{mm,m,h,c}'
+  s.source_files = 'calculib.framework/Versions/A/Headers/*.{mm,m,h,c}'
   
   # s.resource_bundles = {
   #   'calculib' => ['calculib/Assets/*.png']
   # }
 
-  s.public_header_files = 'Versions/A/Headers/*.h'
+  s.public_header_files = 'calculib.framework/Versions/A/Headers/*.h'
    #s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'ﬁ
 end
