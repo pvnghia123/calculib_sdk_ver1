@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'calculib_Example' do
+  pod 'calculib', :path => '../'
+
+  target 'calculib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

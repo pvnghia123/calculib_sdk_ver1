@@ -1,0 +1,22 @@
+{
+  "name": "calculib",
+  "version": "0.1.0",
+  "summary": "A short description of calculib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pvnghia123/calculib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pvnghia123": "pvnghia123@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/pvnghia123/calculib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "calculib/Classes/**/*"
+}
